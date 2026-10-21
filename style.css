@@ -1,7 +1,7 @@
 /* pengaturan umum & warna latar belakang gradient yg colorful */
 body {
 	font-family: 'segoe ui', tahoma, geneva, verdana, sans-serif;
-	background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+	background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(59, 130, 246, 0.75) 100%);
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -30,7 +30,7 @@ body {
 	width: 110px;
 	height: 110px;
 	border-radius: 50%;
-	border: 4px solid #ff0844;
+	border: 4px solid #D2E3F5;
 	object-fit: cover;
 	margin-bottom: 15px;
 }
