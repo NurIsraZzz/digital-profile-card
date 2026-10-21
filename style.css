@@ -1,0 +1,111 @@
+/* pengaturan umum & warna latar belakang gradient yg colorful */
+body {
+	font-family: 'segoe ui', tahoma, geneva, verdana, sans-serif;
+	background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+/* kartu biodata utama */
+.card {
+	background-color: #ffffff;
+	width: 380px;
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+	text-align: center;
+	transition: 0.4 ease;
+}
+	
+.card:hover {
+	transform: translateY(-5px);
+}
+	
+/* foto profil */
+.profile-img {
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	border: 4px solid #ff0844;
+	object-fit: cover;
+	margin-bottom: 15px;
+}
+ 
+/* nama & badge kelas */
+h1 {
+	color: #2d3436;
+	margin: 5px 0;
+	font-size: 22px;
+}
+
+.class-badge {
+	display: inline-block;
+	background-color: #ffeaa7;
+	color: #d63031;
+	padding: 5px 15px;
+	border-radius: 20px;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+/* kotak informasi biodata */
+.biodata-info {
+	text-align: left;
+	background-color: #f8f9fa;
+	padding: 15px;
+	border-radius: 12px;
+	margin-bottom: 20px;
+}
+
+.info-item {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 0;
+	border-bottom: 1px dashed #dfe6e9;
+	font-size: 15px;
+}
+
+.info-item:last-child {
+	border-bottom: none;
+}
+
+.label {
+	font-weight: bold;
+	color: #636e72;
+}
+
+.value {
+	color: 2d3436;
+}
+
+/* tombol interaktif */
+.btn {
+	background: linear-gradient(45deg, #ff0844, #ffb199);
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	box-shadow: 0 4px 10px rgba(255, 8, 68, 0.3);
+	transition: opacity 0.2;
+	witdh: 100%;
+}
+
+.btn:hover {
+	opacity: 0.9;
+}
+	
+	
+#pesan {
+	margin-top: 12px;
+	font-size: 13px;
+	color: #00b894;
+	font-weight: bold;
+}

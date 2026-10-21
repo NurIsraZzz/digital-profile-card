@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>biodata siswa</title>
+	<!-- menghubungkan file html dengan file css eksternal -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="card">
+		<!-- foto profil siswa -->
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZb1PaNUXK4nLXkDJJcoBNGTOLqXcbau14lTyb_6VYlg&s=10" alt="foto siswa" class="profile-img">
+
+		<h1>Nur isra Dwi putra</h1>
+		<div class="class-badge">kelas X RPL</div>
+		
+		<!-- informasi detail biodata -->
+		<div class="biodata-info">
+			<div class="info-item">
+				<span class="label">NISN</span>
+				<span class="value">00210611</span>
+			</div>
+			<div class="info-item">
+				<span class="label">sekolah</span>
+				<span class="value">SMK darussalam makassar</span>
+			</div>
+			<div class="info-item">
+				<span class="label">hobi</span>
+				<span class="value">memasak & bermain game</span>
+			</div>
+			<div class="info-item">
+				<span class="label">cita-cita</span>
+				<span class="value">Quality Assurance</span>
+			</div>
+		</div>
+		
+		<!-- tombol interaktif sederhana -->
+		<button class="btn" onclick="tampilkanpesan()">jangan lupa cek aku!!</button>
+		<div id="pesan"</div>
+	</div>
+
+	<!-- javascript sederhana -->
+	<script>
+		function tampilkanpesan() {
+			const pesan = document.getElementById("pesan");
+			pesan.innerHTML = "terimakasih sudah mau melihat profil saya, jangan lupa berkunjung lagi yah!!";
+		}
+	</script>
+</body>
+</html>		
